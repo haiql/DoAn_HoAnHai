@@ -12,7 +12,7 @@ base.html & index.html : For basic Interface.
 uploads:It contains the test image example
 
 Skin-Lesion-Detector-Tool
-Here Datasets must be downloaded from the Kaggle. Link to download datasets : https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000 .Then extract the datasets with .csv file into same folder Skin-Lesion-Detector-Web Tool That is : HAM10000_metadata.csv HAM10000_images_part_1 HAM10000_images_part_2 These above should be extracted in that above folder.
+Here Datasets must be downloaded from the Kaggle. Link to download datasets : https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000 .Then extract the datasets with .csv file into same folder Skin-Lesion-Detector-Web Tool That is : HAM10000_metadata.csv ,HAM10000_images_part_1 ,HAM10000_images_part_2. These above should be extracted in that above folder.
 
 Required Libraries : Web framework : Flask Tensorflow Matplotlib Keras Numpy Pandas Sklearn These above libraries are mandatory.
 
