@@ -5,7 +5,7 @@ This repository contains all the models I have experimented with and I have also
 
 Details about the files: mymodel : Python File in which classification is done based on CNN model .The weights are then saved to the 'skin_cancer_model_03.h5' file for directly used for UI purpose.
 
-app.py : Flask based UI file which helps in prediction of the image by running the 'model12345.h5' file in the backend for making prediction by getting image by the user and predict the output.
+app.py : Flask based UI file which helps in prediction of the image by running the 'skin_cancer_model_03.h5' file in the backend for making prediction by getting image by the user and predict the output.
 
 base.html & index.html : For basic Interface.
 
@@ -16,4 +16,8 @@ Here Datasets must be downloaded from the Kaggle. Link to download datasets : ht
 
 Required Libraries : Web framework : Flask Tensorflow Matplotlib Keras Numpy Pandas Sklearn These above libraries are mandatory.
 
-Steps to follow : Step 1 : Run the ‘Skin_Cancer_Lesion_Detector.ipynb’ file in either Jupyter/Visual Studio Code Step 2 : At the final step of Training the model , save that model in the same folder in which the ‘app.py’ file is present. Step 3 : Give the path of saved Model in app.py (e.g: Model= load_model('skin_cancer_model_03.h5') ) Step 4 : Now run ‘app.py’ file to get the UI of Model. Follow the localhost link to open the User Interface in Web Browser
+Steps to follow : 
+Step 1 : Run the ‘Skin_Cancer_Lesion_Detector.ipynb’ file in either Jupyter/Visual Studio Code 
+Step 2 : At the final step of Training the model , save that model in the same folder in which the ‘app.py’ file is present. 
+Step 3 : Give the path of saved Model in app.py (e.g: Model= load_model('skin_cancer_model_03.h5') ) 
+Step 4 : Now run ‘app.py’ file to get the UI of Model. Follow the localhost link to open the User Interface in Web Browser
